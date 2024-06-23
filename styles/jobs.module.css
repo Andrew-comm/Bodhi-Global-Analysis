@@ -1,0 +1,128 @@
+/* jobs.module.css */
+
+.jobsSection {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.reverse {
+    flex-direction: row-reverse; /* Reverse the order of items */
+}
+
+.imageContainer {
+    flex: 1;
+    max-width: 300px; /* Adjust the width of the image container */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.imageContainer img {
+    width: 100%;
+    border-radius: 8px; /* Optional: Add border-radius to image */
+}
+
+.textContainer {
+    flex: 2;
+    max-width: 600px; /* Adjust the width of the text container */
+}
+
+.subHeading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Styles for Open Positions section */
+.openPositionsSection {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center; /* Center align the content */
+}
+
+.position {
+    margin: 20px 0;
+}
+
+.position h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.closingDate {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+
+.contactSection {
+    width: 100vw; /* Ensure the footer spans the entire width of the viewport */
+    background-color: #003366; /* Dark blue background color */
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: calc(50% - 50vw); /* Center the footer to span full width */
+}
+
+.contactContent {
+    flex: 1;
+    max-width: 300px;
+    margin: 1rem;
+}
+
+.contactImage {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.contactContent h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.contactContent p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}

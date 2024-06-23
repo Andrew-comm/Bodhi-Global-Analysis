@@ -1,0 +1,170 @@
+.container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center content vertically */
+    background-color: #f0f4f7; /* Fallback background color */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.articleSection {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin-bottom: 20px; /* Space between article section and content */
+}
+
+.backgroundImage {
+    width: 100%;
+    height: 400px; /* Adjust height of background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 102, 204, 0.6); /* Adjust the opacity (0.6) for a slightly faded effect */
+    color: white; /* Set text color to white */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.articleTitle {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.articleparagraph{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; /* Center align the text */
+    margin-bottom: 10px;
+
+
+
+}
+
+.authors {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.readTime {
+    font-size: 0.9rem;
+    color: #ccc; /* Lighter text color for read time */
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 100%; /* Ensure content takes full width */
+    max-width: 800px; /* Adjust as needed */
+    background-color: white; /* Background color for content */
+    padding: 20px;
+   
+}
+
+.perspective {
+    margin-top: 20px; /* Space between perspectives and conclusion */
+}
+
+.meenaPerspective, .benedettaPerspective {
+    margin-bottom: 20px; /* Space between perspectives */
+}
+
+.meenaPerspective h2, .benedettaPerspective h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+.imageSection {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.imageItem {
+    text-align: center;
+    width: calc(33.33% - 10px); /* Adjust width to fit 3 images per row */
+    margin-bottom: 20px; /* Space between image items */
+}
+
+.imageItem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.imageDescription {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+
+.contactSection {
+    width: 100vw; /* Ensure the footer spans the entire width of the viewport */
+    background-color: #003366; /* Dark blue background color */
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: calc(50% - 50vw); /* Center the footer to span full width */
+}
+
+.contactContent {
+    flex: 1;
+    max-width: 300px;
+    margin: 1rem;
+}
+
+.contactImage {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.contactContent h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.contactContent p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,166 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageTitle {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.sectionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section {
+    margin: 1rem;
+    text-align: center;
+    max-width: 200px;
+}
+
+.sectionImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.linkButton {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.detailContainer {
+    text-align: center;
+    max-width: 800px;
+}
+
+.backButton {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.detailImage {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+.filtercontainer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.filtersSection {
+    margin-top: 20px;
+    margin-left: auto; 
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.selectInput {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.clearFilters {
+    padding: 8px 15px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.clearFilters:hover {
+    background-color: #0051a3;
+}
+
+
+
+.contactSection {
+    width: 100vw; /* Ensure the footer spans the entire width of the viewport */
+    background-color: #003366; /* Dark blue background color */
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: calc(50% - 50vw); /* Center the footer to span full width */
+}
+
+.contactContent {
+    flex: 1;
+    max-width: 300px;
+    margin: 1rem;
+}
+
+.contactImage {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.contactContent h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.contactContent p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}

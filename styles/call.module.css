@@ -1,0 +1,143 @@
+/* styles/call.module.css */
+
+.contactSection {
+    width: 100%;
+    padding: 40px 20px;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.learnMoreSection {
+    margin-top: 40px;
+}
+
+.subHeading {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.subParagraph {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 30px; /* Increased space between fields */
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+/* styles/call.module.css */
+
+.inputLine {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1rem;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    transition: border-bottom 0.3s ease-in-out;
+    outline: none;
+    max-width: 300px; /* Adjust the maximum width */
+    display: inline-block; /* Ensure lines wrap within their container */
+    white-space: nowrap; /* Prevent lines from breaking */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+}
+
+.inputLine:empty::before {
+    content: attr(data-placeholder);
+    color: #aaa;
+}
+
+.inputLine:focus {
+    border-bottom: 1px solid #007BFF;
+}
+
+.submitButton {
+    padding: 5px 10px; /* Smaller padding */
+    font-size: 0.875rem; /* Smaller font size */
+    color: #fff;
+    background-color: #003366; /* Dark blue color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-start; /* Align to the start */
+}
+
+.submitButton:hover {
+    background-color: #002244; /* Slightly darker blue on hover */
+}
+
+
+
+.footerSection {
+    margin-top: 20px;
+    width: 100vw; /* Ensure the footer spans the entire width of the viewport */
+    background-color: #003366; /* Dark blue background color */
+    color: #fff;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: calc(50% - 50vw); /* Center the footer to span full width */
+}
+
+.contactContent {
+    flex: 1;
+    max-width: 300px;
+    margin: 1rem;
+}
+
+.contactImage {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.contactContent h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.contactContent p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
